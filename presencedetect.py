@@ -10,10 +10,10 @@ fdebug.write(time.strftime("%Y-%m-%d %H:%M:%S") + ' import subprocess \n')
 fdebug.write(time.strftime("%Y-%m-%d %H:%M:%S") + ' import time \n')
 
 # Presence check for these occupants:
-occupant = ["Tine", "Torsten", "Katrin"]
+occupant = ["John", "Tom", "Kate"]
 
 # MAC addresses of the phones
-address = ["34:e2:fd:55:f9:8e", "88:66:a5:23:64:8c", "30:10:e4:36:1e:d8"]
+address = ["XX:XX:XX:XX:XX:XX", "XX:XX:XX:XX:XX:XX", "XX:XX:XX:XX:XX:XX"]
 
 fdebug.write(time.strftime("%Y-%m-%d %H:%M:%S") + ' we are looking for: ' + address[0] + ' & ' + address[1] + ' & ' + address[2] + '\n')
 fdebug.close()
